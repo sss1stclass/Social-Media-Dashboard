@@ -1,0 +1,352 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+  line-height: 1.5;
+  background-color: #354581;
+  color: #ffffff;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.container {
+  max-width: 1370px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  padding: 40px 0px;
+}
+.containerr {
+  /* background-color: burlywood; */
+  justify-content: space-evenly;
+}
+.header h1 {
+  font-size: 34px;
+}
+.header h3 {
+  font-size: 20px;
+  color: #c4bdbd;
+}
+.first_span {
+  font-size: 20px;
+  color: #e2e8fdd9;
+  /* letter-spacing: 9px; */
+}
+.button {
+  height: 23px;
+  width: 45px;
+  background: linear-gradient(to right, rgb(255, 255, 0), rgb(10, 226, 10));
+  border-radius: 20px;
+  margin-left: 15px;
+  /* margin-right: 15px; */
+  cursor: pointer;
+  transition: 3s;
+}
+.button:hover{
+  justify-content:right;
+
+}
+
+.circle {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #202e6d;
+  margin-left: 4px;
+  margin-right: 4px;
+  position: absolute;
+  transition: 8s;
+
+}
+
+.card {
+  /* padding: 10px; */
+  height: 220px;
+  width: 200px;
+  background-color: rgb(17, 44, 83);
+}
+.line {
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, red, rgb(252, 192, 30));
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.line2 {
+  width: 100%;
+  height: 3px;
+  background-color:#0647fa;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.line3{
+  width: 100%;
+  height: 3px;
+  background: linear-gradient( to right, #2962ff,rgb(144, 211, 255));
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+ 
+}
+.line4 {
+  width: 100%;
+  height: 3px;
+  background:linear-gradient(to right, rgb(252, 38, 23),rgb(255, 58, 58));
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.upper {
+  height: 40px;
+  /* background-color: cornflowerblue; */
+  justify-content: center;
+  line-height: 40px;
+}
+.upper_span {
+  letter-spacing: 2px;
+}
+.logo img {
+  background-color: white;
+  height: 20px;
+  margin-right: 12px;
+  vertical-align: middle;
+  border-radius: 7px;
+}
+.logo_fb img{
+  border-radius: 10px;
+}
+.logo_twitter img{
+  border-radius: 15px;
+}
+.middle {
+  /* height: 50px; */
+  width: 100%;
+  /* background-color: darkgoldenrod; */
+  text-align: center;
+}
+.content {
+  padding: 10px;
+}
+.count {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+.count_para {
+  color: rgb(129, 97, 97);
+  font-size: 20px;
+  margin-bottom: 17px;
+}
+
+.lower {
+  justify-content: center;
+}
+
+.lower_span {
+  font-size: 12px;
+  color: rgb(51, 145, 8);
+  letter-spacing: 2px;
+}
+.logo2 {
+  padding: 10px;
+  position: absolute;
+}
+.logo2 i {
+  position: absolute;
+  top: 16px;
+
+  left: -7px;
+  color: green;
+  vertical-align: middle;
+  margin-top: 3px;
+  margin-right: 6px;
+}
+
+
+/* footer part start here */
+
+.footer_container{
+  padding:  40px 0px;
+  /* background-color: #2962ff; */
+}
+.container2{
+  flex-wrap: wrap;
+  width: 1000px;
+  width: 90%;
+  /* background-color: red; */
+
+  
+}
+.footer_container h2{
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+.card_lower{
+  /* height: 220px; */
+  width: 20%;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  border-radius: 15px 0px 15px 0px;
+  
+  
+  background-color: rgb(17, 44, 83)
+}
+.card_padding{
+  padding: 10px;
+}
+.logo_twitter{
+  padding: 0px;
+  margin: 0px;
+}
+.upper_span2{
+  color: #aed4ee;
+}
+.footer-upper{
+  padding: 10px;
+  justify-content: space-between;
+}
+.lower_footer{
+  padding: 10px;
+  
+  justify-content: space-between;
+}
+
+.lower_span2{
+  font-size: 30px;
+  font-weight: 800;
+}
+.logo-footer i{
+   color: green;
+   vertical-align: middle;
+   margin-top: 7px;
+   margin-right: 3px;
+}
+
